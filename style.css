@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow: hidden;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.card{
+    text-align: center;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg , #00feba , #5b548a);
+    height: 450px;
+    width: 350px;
+    border-radius: 20px;
+    overflow-y:scroll;
+}
+
+.card::-webkit-scrollbar {
+    display: none; 
+  }
+
+.search{
+    margin-top: 30px;
+    gap: 30px;
+    display: flex;
+    justify-content: center;
+    width: 250px;
+}
+
+.but{
+    padding: 10px;
+    border-radius: 50px;
+    border: transparent;
+}
+
+.search input{
+    font-style: bold;
+    font-size: 15px;
+    border: solid 1px #9087c7;
+    border-radius: 25px;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.search img{
+    height:30px;
+     width:30px;
+}
+
+.weather-img{
+    margin-top: 20px;
+    justify-content: start;
+    align-items: center;
+    display: flex;
+    flex-direction:column;
+    gap: 50px;
+
+    
+}
+.weather-img h1{
+    color: white;
+    margin-top: -40px;
+    font-size: 50px;
+    font-family:monospace;
+}
+.weather-img h2{
+    color: white;
+    margin-top: -55px;
+    font-size: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#feel{
+    margin-top: -40px;
+    font-size: 20px;
+    color: white;
+
+}
+
+.info{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 5px;
+    width: 320px;
+    height: 280px;
+}
+
+.n1{
+    
+    color: white;
+    background-color:rgba(0, 0, 0,.11);
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    border-radius: 15px;
+    height: 100px;
+    width: 100px;
+}
+
+.n1 img{
+    margin:0 0 0 12px;
+    width: 30px;
+    height: 30px;
+    margin: 10px 0 3px 10px;
+}
+.n1 .p{
+    text-align: left;
+    letter-spacing: 1px;
+    opacity: .5;
+    /* font-weight: bold; */
+    margin:0 0 0 13px;
+    font-size: 14px;
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.n1 .p2{
+    text-align: left;
+    opacity: .7;
+    margin:4px 0 0 13px;
+    letter-spacing: 1px;
+    font-size: 18px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; "
+}

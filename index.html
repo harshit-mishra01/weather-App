@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather forcast</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<h1 style="margin: 20px 0 40px 0; font-family:Verdana, Geneva, Tahoma, sans-serif;">Weather Application</h1>
+<div class="card">
+    <div class="search">
+        <input  id="city" type="text" placeholder="Enter Your City" spellcheck="true">
+        <button class="but" id="search_button">
+            <img style="height: 25px; width: 25px;" src="search.png">
+        </button>
+    </div>
+    <div class="weather-img">
+        <img id="img" height="150px" width="150px" src="weather.png">
+        <p id="feel">condition</p>
+        <h1 id="temp">_°c</h1>
+        <h2 id="currCity">_</h2>
+        <p style="margin-top: -40px;  color: white; ">Scroll For Additional Information</p>
+        <div class="info">
+
+            <div class="n1">
+            <img style="width: 35px; height: 35px;" src="uv.png">
+            <p class="p">UV</p>
+            <p id="uv" class="p2"></p>
+            </div>
+
+
+            <div class="n1">
+            <img style="width: 35px;" src="feel.png">
+            <p class="p">Feels like</p>
+            <p id="feel_like" class="p2" ></p>
+            </div>
+
+            <div class="n1">
+            <img style="width: 35px;" src="humidity.png">
+            <p class="p">Humidity</p>
+            <p id="humidity" class="p2" ></p>                
+            </div>
+
+            <div class="n1">
+            <img  src="wind.png">
+            <p id="dir" class="p">Wind</p>
+            <p style="font-size: 16px;" id="wind" class="p2"></p>                   
+            </div>
+
+            <div class="n1">
+            <img src="pressure.png"> 
+            <p class="p">Pressure</p>
+            <p id="pressure" class="p2" ></p>
+            </div>     
+
+            <div class="n1">
+            <img width="30px" src="visibility.png">
+            <p class="p">Visibility</p>
+            <p id="vis_km" class="p2" ></p>
+            </div>       
+
+
+
+            
+        </div>
+
+    </div>
+</div>
+<script src="app.js"></script>
+<body>
+    
+</body>
+</html>
